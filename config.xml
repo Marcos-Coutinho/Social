@@ -13,7 +13,7 @@
     <author email="info@x-services.nl" href="http://www.x-services.nl">
         X-Services, Netherlands
     </author>
-
+    <content src="index.html" />
 	<preference name="orientation" value="portrait" />
 	<preference name="android-installLocation" value="auto" />
     <preference name="DisallowOverscroll" value="true" />
