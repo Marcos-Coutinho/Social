@@ -34,18 +34,6 @@
 <script type="text/javascript">
   app.initialize();
 
-  // this is for the LaunchMyApp plugin
-  function handleOpenURL(url) {
-    setTimeout(function() {
-      alert("LaunchMyApp plugin received url: " + url);
-    }, 0);
-  }
-
-  window.onerror = function(a,b,c) {
-    alert(a + "; " + b + "; " + c);
-  };
-
-  alert('actionsheet theme, 1: ' + window.plugins.actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT);
 </script>
 
 </body>
